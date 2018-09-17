@@ -5,8 +5,8 @@ Support by : Mastah Ervan
 */
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
-$channelAccessToken = 'gjMl1nohjAv8HHZmZ131BIRTFnzNno8+OGTfxKPP62xHRZ4azGDLRDw9Yo3zHs3DAt9T/GIpiVOpNJeeTfUKiG/jnAD+JhsSV8fiaB1AizT82Nze/6RlO5Hwq7+dKzzKgUY6LKJVxdiQA36mxNGnOQdB04t89/1O/w1cDnyilFU='; #ChannelAccessToken (paste token akses kamu disini)
-$channelSecret = 'e3654eaf5d04179128c567e66a9e409e';#Channel Secret (paste token secret kamu disini)
+$channelAccessToken = 'vDt9Xnzr9Mh/CaRmhiFYbMXfUZipkRwqTsRfx5EQL7Fs2x8QMY7ZxpBm5Qw+YnHzCcbRHGtW8e+8oo/0Vgrd+Wc2bbqED8jTAsk/Xoqp73LXvvsa+Ig6DSX9lQ2Vspp4HjVzTwGtLxrfF99jtB7f8wdB04t89/1O/w1cDnyilFU='; #ChannelAccessToken (paste token akses kamu disini)
+$channelSecret = '4c45fceb2aa26ebf4f1e35c58b962a86';#Channel Secret (paste token secret kamu disini)
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 $userId 	= $client->parseEvents()[0]['source']['userId'];
 $groupId 	= $client->parseEvents()[0]['source']['groupId'];
